@@ -1,0 +1,24 @@
+:root {
+    /* Color System */
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #121212;
+    --bg-tertiary: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #a3a3a3;
+    --border-color: #232323;
+    --accent: #ffffff;
+
+    /* Typography Hierarchy */
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --fs-h1: clamp(2.5rem, 5vw, 4rem);
+    --fs-h2: clamp(1.8rem, 3.5vw, 2.25rem);
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    --fs-small: 0.875rem;
+
+    /* Layout Primitives */
+    --max-width: 1200px;
+    --radius-lg: 16px;
+    --radius-md: 8px;
+    --transition: cubic-bezier(0.16, 1, 0.3, 1) 0.4s;
+}
